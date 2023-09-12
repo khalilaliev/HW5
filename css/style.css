@@ -1,0 +1,91 @@
+.container{
+    width: 1200px;
+    margin: 30px auto;
+
+}
+.first_div{
+    background: rgb(62, 185, 62);
+    font-size: 0;
+    text-align: justify;
+}
+.first_blocks{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 30px;
+    outline: 2px solid rgb(0, 0, 0);
+}
+.second_div{
+    background: red;
+    outline: 2px solid rgb(0, 0, 0);
+    font-size: 0;
+    text-align: justify;
+}
+.second_blocks1{
+
+    width: 800px;
+    height: 200px;
+    outline: 1px solid black;
+
+
+}
+.second_blocks2{
+ 
+    width: 400px;
+    height: 133.333px;
+    outline: 1px solid black;
+    overflow: hidden;
+    font-size: 30px;
+
+}
+.second_div > div{
+    display: inline-block;
+    font-size: 30px;
+}
+
+
+.third_div{
+    background: violet;
+    outline: 2px solid black;
+    font-size: 0;
+    text-align: justify;
+}
+.third_div div{
+    outline: 2px solid black;
+}
+.third_div > div{
+    font-size: 30px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+}
+.third_div > div + div{
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+}
+.third_div > div + div > div{
+    height: 200px;
+    overflow: hidden;
+}
+.third_div > div + div > div + div{
+    font-size: 0;
+}
+.third_div > div + div > div + div > div{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.third_div > div + div > div + div > div + div{
+    height: auto;
+    overflow: hidden;
+}
+.third_div > div + div > div + div > div + div > div{
+    height: 100px;
+    overflow: hidden;
+}
+
